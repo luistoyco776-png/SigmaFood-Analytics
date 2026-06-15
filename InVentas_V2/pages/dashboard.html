@@ -1,0 +1,57 @@
+<section class="dashboard-page">
+
+    <header class="page-header">
+        <h1>Dashboard</h1>
+        <p>Estado general del negocio</p>
+    </header>
+
+    <section class="kpi-grid">
+
+        <div class="kpi-card">
+            <h3>Crecimiento</h3>
+            <h2 id="kpiGrowth">--%</h2>
+            <p>respecto al periodo anterior</p>
+        </div>
+
+        <div class="kpi-card">
+            <h3>Demanda</h3>
+            <h2 id="kpiDemand">--</h2>
+            <p id="kpiTrend">--</p>
+        </div>
+
+        <div class="kpi-card">
+            <h3>Aceleración</h3>
+            <h2 id="kpiAcceleration">--</h2>
+            <p>velocidad de cambio</p>
+        </div>
+
+        <div class="kpi-card">
+            <h3>Riesgo de stock</h3>
+            <h2 id="kpiRisk">--</h2>
+            <p>estado del inventario</p>
+        </div>
+
+    </section>
+
+    <div style="height: 20px;"></div>
+
+    <section class="chart-section">
+
+        <h3>Tendencia de ventas</h3>
+
+        <canvas id="dashboardChart"></canvas>
+
+    </section>
+
+    <div style="height: 10px;"></div>
+    <section class="decision-panel">
+
+    <h2>Centro de decisiones</h2>
+
+    <div id="decisionText">
+        Analizando datos...
+    </div>
+
+    </section>
+
+</section>

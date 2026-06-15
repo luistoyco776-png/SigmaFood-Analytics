@@ -1,0 +1,105 @@
+<section class="operations-page">
+
+    <header class="page-header">
+
+        <h1>Operaciones</h1>
+
+            <div class="tabs">
+
+                <button class="tab active" data-entity="productos">
+                    Productos
+                </button>
+
+                <button class="tab" data-entity="insumos">
+                    Insumos
+                </button>
+
+                <button class="tab" data-entity="ventas">
+                    Ventas
+                </button>
+
+            </div>
+
+    </header>
+
+    <section class="toolbar">
+
+        <button id="btnNuevo">
+            Nuevo
+        </button>
+
+        <button id="btnEditar">
+            Editar
+        </button>
+
+        <button id="btnEliminar">
+            Eliminar
+        </button>
+
+        <button id="btnRecargar">
+            Restaurar Datos
+        </button>
+
+    </section>
+
+    <section id="crudPanel" class="hidden">
+
+        <div class="panel-header">
+
+            <h3 id="panelTitle">
+                Nuevo registro
+            </h3>
+
+            <button id="btnCerrarPanel">
+                ✕
+            </button>
+
+        </div>
+
+        <form id="crudForm">
+
+            <div id="formFields"></div>
+
+            <div class="panel-actions">
+
+                <button id="botonguardar" type="submit">
+                    Guardar
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+    <section class="table-container">
+
+        <table id="crudTable">
+
+            <thead></thead>
+
+            <tbody></tbody>
+
+        </table>
+
+    </section>
+
+    <section id="detailPanel">
+
+        <div id="detailHeader">
+
+            <h3 id="detailTitle">
+                Detalle
+            </h3>
+
+        </div>
+
+        <div id="detailContent">
+
+            Seleccione un registro
+
+        </div>
+
+    </section>
+
+</section>

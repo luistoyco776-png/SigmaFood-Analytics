@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "fecha": "2026-05-01",
+        "productoId": 1,
+        "cantidad": 18,
+        "precioUnitario": 15
+    },
+
+    {
+        "id": 2,
+        "fecha": "2026-05-02",
+        "productoId": 1,
+        "cantidad": 20,
+        "precioUnitario": 15
+    },
+
+    {
+        "id": 3,
+        "fecha": "2026-05-03",
+        "productoId": 1,
+        "cantidad": 21,
+        "precioUnitario": 15
+    },
+
+    {
+        "id": 4,
+        "fecha": "2026-05-04",
+        "productoId": 1,
+        "cantidad": 23,
+        "precioUnitario": 15
+    },
+
+    {
+        "id": 5,
+        "fecha": "2026-05-05",
+        "productoId": 1,
+        "cantidad": 25,
+        "precioUnitario": 15
+    },
+
+    {
+        "id": 6,
+        "fecha": "2026-05-06",
+        "productoId": 2,
+        "cantidad": 15,
+        "precioUnitario": 20
+    },
+
+    {
+        "id": 7,
+        "fecha": "2026-05-07",
+        "productoId": 2,
+        "cantidad": 18,
+        "precioUnitario": 20
+    },
+
+    {
+        "id": 8,
+        "fecha": "2026-05-08",
+        "productoId": 3,
+        "cantidad": 8,
+        "precioUnitario": 45
+    },
+
+    {
+        "id": 9,
+        "fecha": "2026-05-08",
+        "productoId": 3,
+        "cantidad": 8,
+        "precioUnitario": 45
+    }
+]
